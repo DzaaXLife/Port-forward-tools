@@ -1,0 +1,39 @@
+{
+  "name": "hostweb",
+  "version": "1.0.0",
+  "description": "Deploy any local web project and expose it publicly via LocalTunnel or Cloudflare.",
+  "type": "module",
+  "bin": {
+    "hostweb": "./hostweb.js"
+  },
+  "scripts": {
+    "start": "node hostweb.js",
+    "help": "node hostweb.js help"
+  },
+  "keywords": [
+    "deploy",
+    "tunnel",
+    "localtunnel",
+    "cloudflare",
+    "static",
+    "express",
+    "react",
+    "vue",
+    "next",
+    "nuxt",
+    "svelte",
+    "astro",
+    "angular"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "unzipper": "^0.12.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
